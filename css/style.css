@@ -72,12 +72,26 @@ div {
     color: rgb(255, 133, 0);
 }*/
 
-/*aplica el estilo a todos los elementos li de la clase .numeros*/
+/*aplica el estilo a todos los elementos li de la clase .numeros
 .numeros li{
     color: rgb(255, 133, 0);
-}
+}*/
 
 /*busca un elemento que tenga ambas clases*/
 .navegacion.especial, #principal{
     color:purple;
+}
+
+/* tambien sirve para seleccionar los href, el selector observa el atributo href
+[href] {
+    color: yellow;
+}*/
+
+
+p#game a.link{
+    color: yellow;
+}
+
+.numeros > * {
+    color:orange;
 }
