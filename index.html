@@ -1,36 +1,34 @@
-<html>
-    <head>
-        <title>
-            Hola Mundo
-        </title>
-        <meta charset="UTF-8"/>
-       <!--Es para incluir el latinoamericano--> 
-    </head>
-    <body>
-        <h1>
-            Título principal
-        </h1>
-        <h2>
-            Subtítulo
-        </h2>
-        <h6>
-            Un título muy pequeño
-        </h6>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ipsam sequi? Architecto, rem, quia incidunt eius, dolorum accusantium alias atque deserunt dicta laboriosam odio! Repellat amet dolorum debitis placeat accusamus!
-        </p>
-        <ol>
-            <!--lista en orden-->
-            <li>Primero</li>
-            <li>Segundo</li>
-            <li>Tercero</li>
-        </ol>
-        <ul id="lista">
-            <!--lista sin orden-->
-            <li>Primero</li>
-            <li>Segundo</li>
-            <li>Tercero</li> 
+<!DOCTYPE html>
+<html lang="es">
+<!--nos indica el idioma--> 
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Hola Mundo
+    </title>
+    <meta charset="UTF-8"/>
+    <!--Es para incluir el latinoamericano-->
+    <link href="./css/style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+</head>
+<body>
+    <nav>
+        <!--elementos para navegacion-->
+        <ul>
+            <li class="navegacion especial extra">Home</li>
+            <li class="navegacion">About</li>
         </ul>
+    </nav>
+
+    <article>
+
+    </article>
+
+    <main>
+        <!--seccion principal-->
+        <!--usualmente es una sola seccion principal-->
         <form>
             <div>
                 <!--for de label es para poner cursor sobre el input con id del mismo nombre-->
@@ -95,18 +93,59 @@
                 </label>
                 <textarea name="comentario" id="comentario"></textarea>
             </div>
-            <button type="submit">
+            <button type="submit" class="botonSubmit">
                 Enviar
             </button>
         </form>
-        <img src="./imagenes/carro.jpg"/>
-        <div>
-            <a href="https://www.google.com">Google</a>
-        </div>
-        <div>
-            <a href="./about.html">About</a>
-        </div>
-    </body>
+    </main>
+
+    <section>
+        <!--estilo en linea-->
+        <!--<h1 style="color: blue;">-->
+        <h1 id="principal" class="titulo">
+            Título principal
+        </h1>
+        <h2>
+            Subtítulo
+        </h2>
+        <h6>
+            Un título muy pequeño
+        </h6>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ipsam sequi? Architecto, rem, quia incidunt eius, dolorum accusantium alias atque deserunt dicta laboriosam odio! Repellat amet dolorum debitis placeat accusamus!
+        </p>
+        <ol class="numeros">
+            <!--lista en orden-->
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+            <div>
+                <ol>
+                    <li>cuarto</li>
+                </ol>
+            </div>
+        </ol>
+        <ul id="lista">
+            <!--lista sin orden-->
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li> 
+        </ul>
+    </section>
+
+    <img src="./imagenes/carro.jpg" alt="imagen de un carro rojo"/>
+    <div>
+        <a href="https://www.google.com">Google</a>
+    </div>
+    <div>
+        <a href="./about.html">About</a>
+    </div>
+
+   <!--parte final de la pagina-->  
+    <footer>
+        Todos los derechos reservados
+    </footer>
+</body>
 </html>
 
 <!--
