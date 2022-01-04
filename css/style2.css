@@ -1,0 +1,30 @@
+ /* * > .numeros{ */
+/* .numeros > * { */
+/* * .numeros > * { */
+/* .numeros * { */
+.numeros {
+    color:purple;
+    font-size: larger;
+    text-align: right;
+}
+
+p {
+    /* font-size: 36pt; */
+    /* font-size: 48px; */
+    font-size: 3em;
+    /* font-size: 300%; */
+    background-color: purple;
+}
+
+div {
+    background-color: blue;
+    background-image: url("./../imagenes/carro.jpg");
+    background-position: center;
+    background-attachment: fixed;/*para que se no se mueva la imagen*/
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 40em;
+    width: 100%;
+    /* background: #ffffff url("./../imagenes/carro.jpg") no-repeat fixed center; */
+    
+}
